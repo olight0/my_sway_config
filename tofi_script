@@ -1,0 +1,1 @@
+doas pacman -S freetype2 harfbuzz cairo pango wayland libxkbcommon meson scdoc meson wayland-protocols && git clone https://github.com/philj56/tofi.git && cd tofi/ && meson build && ninja -C build install
